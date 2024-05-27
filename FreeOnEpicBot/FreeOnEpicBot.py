@@ -40,7 +40,7 @@ def send_message(text):
 	Args:
 		The text to send - the game link
 	"""
-    bot = telegram.Bot(token=bot_token)
+bot = telegram.Bot(token=bot_token)
     for id in chat_db.values():
         try:
             bot.sendMessage(chat_id=id, text=text)
