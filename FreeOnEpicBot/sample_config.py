@@ -3,4 +3,4 @@ You will get automatically notified when new games become free to collect.
 If you would like to see the current free game please use the following command:  /freegame
 """
 
-BOT_TOKEN = '123'
+BOT_TOKEN = '6512732530:AAHCufVxJFnodn5NX5BbnBu_eZa2_6kL0rI'
