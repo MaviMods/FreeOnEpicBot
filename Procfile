@@ -1,1 +1,1 @@
-worker: python3 FreeOnEpicBot.py
+worker: python3 -m FreeOnEpicBot.py
