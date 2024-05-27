@@ -41,11 +41,6 @@ def send_message(text):
 		The text to send - the game link
 	"""
 bot = telegram.Bot(token=bot_token)
-        try:
-            bot.sendMessage(chat_id=id, text=text)
-        except Exception as e:
-            logging.warning(f"The following chat ID doesn't exist - {e}")
-            remove_id(id)
 
 
 def get_links(context):
